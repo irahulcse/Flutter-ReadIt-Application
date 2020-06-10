@@ -1,4 +1,3 @@
-    
 class Doctor {
   final String name;
   final String specialist;

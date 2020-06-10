@@ -2,12 +2,12 @@ import 'package:all_in_one_flutter_app/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class Specialist extends StatelessWidget {
+class SpecialistCard extends StatelessWidget {
   final String name;
   final String doctor;
   final String icon;
   final Color color;
-  Specialist({this.color, this.doctor, this.icon, this.name});
+  SpecialistCard({this.color, this.doctor, this.icon, this.name});
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -32,7 +32,7 @@ class Specialist extends StatelessWidget {
             textAlign: TextAlign.center,
             style: kTitleStyle.copyWith(
               color: Colors.white,
-              height: 6.0,
+              height: 1.0,
             ),
           ),
           SizedBox(height: 5.0),
