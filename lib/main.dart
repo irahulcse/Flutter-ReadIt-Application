@@ -35,6 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
   String rahul = "";
   int x = 0;
   bool make = true;
+  bool pos = true;
   void _incrementCounter() {
     setState(() {
       if (make == true) {
@@ -43,9 +44,11 @@ class _MyHomePageState extends State<MyHomePage> {
           if (rohan[i] != '.') {
             rahul += rohan[i];
             _counter = i;
+            pos = true;
           } else {
             make = false;
             _counter = i;
+            pos = false;
             break;
           }
         }
@@ -55,9 +58,11 @@ class _MyHomePageState extends State<MyHomePage> {
           if (rohan[i] != '.') {
             rahul += rohan[i];
             _counter = i;
+            pos = false;
           } else {
             make = false;
             _counter = i;
+            pos = true;
             break;
           }
         }
@@ -72,8 +77,16 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+        child:  pos==true ? Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            Text(
+              "$rahul",
+              style: Theme.of(context).textTheme.headline4,
+            ),
+          ],
+        ):  Column(
+          crossAxisAlignment: CrossAxisAlignment.end,
           children: <Widget>[
             Text(
               "$rahul",
