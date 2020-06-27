@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.amber,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
@@ -35,7 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
   String rahul = "";
   int x = 0;
   bool make = true;
-  bool pos = true;
+
   void _incrementCounter() {
     setState(() {
       if (make == true) {
@@ -44,25 +44,22 @@ class _MyHomePageState extends State<MyHomePage> {
           if (rohan[i] != '.') {
             rahul += rohan[i];
             _counter = i;
-            pos = true;
           } else {
             make = false;
             _counter = i;
-            pos = false;
             break;
           }
-        }
+        } //
       } else {
+        //rahul = " ";
         x = _counter;
         for (int i = x + 1; i < rohan.length; i++) {
           if (rohan[i] != '.') {
             rahul += rohan[i];
             _counter = i;
-            pos = false;
           } else {
             make = false;
             _counter = i;
-            pos = true;
             break;
           }
         }
@@ -75,22 +72,18 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
+        centerTitle: true,
+        
       ),
-      body: Center(
-        child:  pos==true ? Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[
+      body: Align(
+        alignment: Alignment.topLeft,
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.start    ,
+          children: [
             Text(
               "$rahul",
-              style: Theme.of(context).textTheme.headline4,
-            ),
-          ],
-        ):  Column(
-          crossAxisAlignment: CrossAxisAlignment.end,
-          children: <Widget>[
-            Text(
-              "$rahul",
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.headline6,
             ),
           ],
         ),
