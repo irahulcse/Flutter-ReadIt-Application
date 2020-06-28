@@ -1,7 +1,11 @@
 ![Image](image/rovers.jpg)
 # Flutter ReadIt Application :boom:
 
-Flutter ReadIt 
+Flutter ReadIt Application is an online story reading application, which can be used to read interesting stories in a chat format. Flutter READIT Application are used on the top of Flutter(Dart Programming Language).
+
+
+## Dependencies used are as follows:
+  simple_animations: ^2.2.1
 
 
 ### Show some love :heart: and star the repo to support the project
@@ -109,3 +113,6 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+dependencies:
+  simple_animations: ^2.2.1
