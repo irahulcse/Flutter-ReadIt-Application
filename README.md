@@ -36,7 +36,7 @@ I am currently looking for Full Time/ Internship Offer for any Software Developm
 
 ### Screenshots and Working GIFS:
 
-<img src="images/rovers.gif" height="300em"  width="250em"/> <img src="image/1.png" height="300em" width="250em"/> <img src="image/2.png" height="300em" width="250em"/>
+<img src="image/rovers.gif" height="300em"  width="250em"/> <img src="image/1.PNG" height="300em" width="250em"/> <img src="image/2.PNG" height="300em" width="250em"/>
 
 
  Sorry for the quality of the GIF :pray:
