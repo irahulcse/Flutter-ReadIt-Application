@@ -16,7 +16,7 @@ The Parent Repository of this project can be found on this [link](https://github
 
 # Live Working Project:
 
-[Demo Application](https://irahulcse.github.io/Telegram_Ui_Flutter/)
+[Demo Application](https://irahulcse.github.io/Flutter-ReadIt-Application/#/)
 
 ## Features Needed to Be Added:
 
