@@ -1,7 +1,7 @@
-![Image](images/rovers.jpg)
-# Bottom_Sheets_UI_Flutter :boom:
+![Image](image/rovers.jpg)
+# Flutter ReadIt Application :boom:
 
-Created Telegram User Interface in Flutter using the **widgets** like ListTile, ListView and different builders like the ListView Builder Seperator and also used the other widgets like CircleAvator, Text widgets for UI etc.
+Flutter ReadIt 
 
 
 ### Show some love :heart: and star the repo to support the project
@@ -32,7 +32,7 @@ I am currently looking for Full Time/ Internship Offer for any Software Developm
 
 ### Screenshots and Working GIFS:
 
-<img src="images/rovers.gif" height="300em"  width="250em"/> <img src="images/1.jpg" height="300em" width="250em"/> <img src="images/2.jpg" height="300em" width="250em"/>
+<img src="images/rovers.gif" height="300em"  width="250em"/> <img src="image/1.png" height="300em" width="250em"/> <img src="image/2.png" height="300em" width="250em"/>
 
 
  Sorry for the quality of the GIF :pray:
